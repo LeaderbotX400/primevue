@@ -257,6 +257,6 @@ const PrimeIcons = {
     WINDOW_MINIMIZE: 'pi pi-window-minimize',
     WRENCH: 'pi pi-wrench',
     YOUTUBE: 'pi pi-youtube'
-};
+} as const;
 
 export default PrimeIcons;
