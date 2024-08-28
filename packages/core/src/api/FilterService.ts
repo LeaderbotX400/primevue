@@ -1,7 +1,7 @@
 import { equals, removeAccents, resolveFieldData } from '@primeuix/utils/object';
 
 const FilterService = {
-    filter(value: any, fields: string[], filterValue: any, filterMatchMode: string, filterLocale?: string) {
+    filter(value: any, fields: string[], filterValue: any, filterMatchMode: keyof typeof this.filters, filterLocale?: string) {
         let filteredItems: string[] = [];
 
         if (!value) {
