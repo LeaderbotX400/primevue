@@ -11,4 +11,4 @@ export const useToast = () => {
     }
 
     return PrimeVueToast;
-}
+};

@@ -1,5 +1,6 @@
 import { defaultOptions } from '@primevue/core/config';
 import { config } from '@vue/test-utils';
+import { describe, it, vi } from 'vitest';
 
 config.global.mocks['$primevue'] = {
     config: defaultOptions
