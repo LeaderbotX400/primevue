@@ -161,6 +161,7 @@ export default {
                     break;
 
                 case 'Enter':
+                case 'NumpadEnter':
                 case 'Tab':
                     break;
 
